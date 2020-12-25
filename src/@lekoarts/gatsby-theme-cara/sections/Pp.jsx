@@ -19,8 +19,8 @@ export default () => {
 		<Img
 			sx={{
 				borderRadius: `50%`,
-				width: `250px`,
-				height: `250px`,
+				width: ["50%", "15%"],
+				height: `auto !important`,
 			}}
 			fluid={data.file.childImageSharp.fluid}
 			alt="Seems like I can't be seen right now"

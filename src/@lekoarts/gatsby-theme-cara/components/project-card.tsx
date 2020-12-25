@@ -46,7 +46,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => {
 	var picture = query.allFile.edges.find(
 		(pic) => pic.node.name === assign[title]
 	);
-	var div;
+	var div: JSX.Element;
 	if (picture != null) {
 		div = (
 			<Img
@@ -59,22 +59,15 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => {
 		var src = drone;
 		if (title === "PorkNife") src = PorknifeHigh;
 		div = (
-			<div
-				style={{
-					display: "flex",
-					justifyContent: "center",
-				}}
+			<video
+				sx={{ width: `100% !important`, height: `auto !important` }}
+				loop
+				autoPlay
+				muted
+				preload="auto"
 			>
-				<video
-					sx={{ width: `100% !important`, height: `auto !important` }}
-					loop
-					autoPlay
-					muted
-					preload="auto"
-				>
-					<source src={src} type="video/mp4" />
-				</video>
-			</div>
+				<source src={src} type="video/mp4" />
+			</video>
 		);
 	}
 
@@ -102,7 +95,14 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => {
 				},
 			}}
 		>
-			<div>{div}</div>
+			<div
+			// sx={{
+			// 	display: `flex`,
+			// 	justifyContent: `center`,
+			// }}
+			>
+				{div}
+			</div>
 			<div sx={{ opacity: 0.75, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)` }}>
 				{children}
 			</div>

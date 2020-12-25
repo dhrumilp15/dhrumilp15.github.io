@@ -1,34 +1,48 @@
 /**@jsx jsx */
-import { jsx } from "theme-ui";
+import { useColorMode, jsx } from "theme-ui";
 import {
 	FaGithub,
 	FaLinkedinIn,
 	FaRegEnvelope,
 	FaYoutube,
+	FaTwitch,
 } from "react-icons/fa";
 
-const Social = (props) => {
+const Social = () => {
 	const component = [
-		<FaRegEnvelope />,
-		<FaGithub />,
-		<FaLinkedinIn />,
-		<FaYoutube />,
+		[<FaRegEnvelope />, "mailto: dhrumilp15@gmail.com"],
+		[<FaGithub />, "https://github.com/dhrumilp15"],
+		[<FaLinkedinIn />, "https://www.linkedin.com/in/dhrumilp15/"],
+		[<FaYoutube />, "https://www.youtube.com/channel/UCE6avX_eOjxGlpYCWuVn0Xw"],
+		[<FaTwitch />, "https://www.twitch.tv/dhrumilp15"],
 	];
-	return (
+	const [colorMode, setColorMode] = useColorMode()
+	const icons = component.map((icon) => (
 		<a
-			href={props.link}
+			href={icon[1]}
 			target="_blank"
 			rel="noopener noreferrer"
 			sx={{
 				"&:hover": {
-					color: `white !important`,
+					color: colorMode === `dark` ? `white !important` : `black !important`,
 					transform: `translateY(-5px)`,
 					boxShadow: `xl`,
 				},
 			}}
 		>
-			{component[props.index]}
+			{icon[0]}
 		</a>
+	));
+	return (
+		<div
+			sx={{
+				display: `flex`,
+				justifyContent: `space-around`,
+				width: ["100%", "50%", "25%"],
+			}}
+		>
+			{icons}
+		</div>
 	);
 };
 
