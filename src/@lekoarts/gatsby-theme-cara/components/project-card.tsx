@@ -2,73 +2,44 @@
 import React from "react";
 import { jsx } from "theme-ui";
 import overlay from "../../../images/overlay-bg.png";
-import PorknifeHigh from "../../../images/projects/PorknifeHigh.mp4";
-import drone from "../../../images/projects/drone.mp4";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import Video from './Video';
 
 type ProjectCardProps = {
 	link: string;
 	title: string;
 	children: React.ReactNode;
 	bg: string;
+	name: string;
 };
 
-const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => {
-	const assign = {
-		"Bacterial Op-Amps": "results",
-		"CC Extractor": "ccextractor",
-	};
-
-	const query = useStaticQuery(graphql`
-		query {
-			allFile(
-				filter: {
-					extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
-					relativeDirectory: { eq: "projects" }
+const ProjectCard = ({ link, title, children, bg, name }: ProjectCardProps) => {
+	const projectDemos = useStaticQuery(graphql`query {
+		allFile(filter: {relativeDirectory: {eq: "projects"}}) {
+		  edges {
+			node {
+			  name
+			  publicURL
+			  childImageSharp {
+				fluid {
+				  ...GatsbyImageSharpFluid
 				}
-			) {
-				edges {
-					node {
-						relativeDirectory
-						name
-						relativePath
-						childImageSharp {
-							fluid {
-								...GatsbyImageSharpFluid
-							}
-						}
-					}
-				}
+			  }
 			}
+		  }
 		}
-	`);
-	var picture = query.allFile.edges.find(
-		(pic) => pic.node.name === assign[title]
+	  }`);
+	var picture = projectDemos.allFile.edges.find(
+		pic => pic.node.name === name
 	);
-	var div: JSX.Element;
-	if (picture != null) {
-		div = (
-			<Img
+	var div: JSX.Element = <Video videoSrcURL={picture.node.publicURL} videoTitle={title}/>;
+	if (picture.node.childImageSharp != null) {
+		div = <Img
 				sx={{ display: `flex`, justifyContent: `center` }}
 				fluid={picture.node.childImageSharp.fluid}
 				alt={title}
-			/>
-		);
-	} else {
-		var src = drone;
-		if (title === "PorkNife") src = PorknifeHigh;
-		div = (
-			<video
-				sx={{ width: `100% !important`, height: `auto !important` }}
-				loop
-				autoPlay
-				muted
-				preload="auto"
-			>
-				<source src={src} type="video/mp4" />
-			</video>
-		);
+			/>;
 	}
 
 	return (
@@ -96,10 +67,6 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => {
 			}}
 		>
 			<div
-			// sx={{
-			// 	display: `flex`,
-			// 	justifyContent: `center`,
-			// }}
 			>
 				{div}
 			</div>
