@@ -6,19 +6,22 @@ import {
 	FaRegEnvelope,
 	FaYoutube,
 	FaTwitch,
+	FaMediumM,
 } from "react-icons/fa";
 
 const Social = () => {
-	const component = [
+	const component: [JSX.Element, string][] = [
 		[<FaRegEnvelope />, "mailto: dhrumilp15@gmail.com"],
 		[<FaGithub />, "https://github.com/dhrumilp15"],
 		[<FaLinkedinIn />, "https://www.linkedin.com/in/dhrumilp15/"],
 		[<FaYoutube />, "https://www.youtube.com/channel/UCE6avX_eOjxGlpYCWuVn0Xw"],
 		[<FaTwitch />, "https://www.twitch.tv/dhrumilp15"],
+		[<FaMediumM />, "https://medium.com/@dhrumilp15"],
 	];
-	const [colorMode, setColorMode] = useColorMode()
-	const icons = component.map((icon) => (
+	const [colorMode, setColorMode] = useColorMode();
+	const icons: JSX.Element[] = component.map((icon, index) => 
 		<a
+			key={index}
 			href={icon[1]}
 			target="_blank"
 			rel="noopener noreferrer"
@@ -32,7 +35,7 @@ const Social = () => {
 		>
 			{icon[0]}
 		</a>
-	));
+	);
 	return (
 		<div
 			sx={{
