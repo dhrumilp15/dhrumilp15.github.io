@@ -1,9 +1,9 @@
 {
 	"private": true,
-	"name": "cara",
-	"description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+	"name": "dhrumilp15",
+	"description": "My (@dhrumilp15's) website! I post my projects, blog posts and more here!",
 	"version": "0.2.0",
-	"author": "LekoArts <hello@lekoarts.de>",
+	"author": "Dhrumil Patel <dhrumilp15@gmail.com>",
 	"license": "MIT",
 	"starter-name": "gatsby-starter-portfolio-cara",
 	"scripts": {
