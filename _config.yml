@@ -3,6 +3,7 @@ permalink: /blog/:year/:month/:day/:title/
 environment: prod
 domain: dhrumilp15.github.io
 url: http://dhrumilp15.github.io  # Sitemap base URL.
+repository: dhrumilp15.github.io
 plugins:
   - jekyll-scholar
   - jekyll-sitemap
