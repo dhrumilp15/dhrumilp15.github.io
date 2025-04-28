@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-22T04:23:24-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dhrumilp15.github.io</title><subtitle>research blog</subtitle><entry><title type="html">Try it and see!</title><link href="http://localhost:4000/blog/2024/01/04/try-it-and-see/" rel="alternate" type="text/html" title="Try it and see!" /><published>2024-01-04T00:00:00-05:00</published><updated>2024-01-04T00:00:00-05:00</updated><id>http://localhost:4000/blog/2024/01/04/try-it-and-see</id><content type="html" xml:base="http://localhost:4000/blog/2024/01/04/try-it-and-see/"><![CDATA[<p>I asked my friend, who is much further in his SWE career, how to improve as a software engineer.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-28T18:08:47-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dhrumilp15.github.io</title><subtitle>research blog</subtitle><entry><title type="html">taking a graduate class during my undergrad</title><link href="http://localhost:4000/blog/2025/04/28/taking-a-grad-class/" rel="alternate" type="text/html" title="taking a graduate class during my undergrad" /><published>2025-04-28T00:00:00-04:00</published><updated>2025-04-28T00:00:00-04:00</updated><id>http://localhost:4000/blog/2025/04/28/taking-a-grad-class</id><content type="html" xml:base="http://localhost:4000/blog/2025/04/28/taking-a-grad-class/"><![CDATA[<p>In my last term on campus at Waterloo, I decided to dedicate the term to learn about machine learning. I had already taken Waterloo’s computer vision class (CS 484) in second year, and felt like I should do a deeper dive to learn more of the fundamentals. In particular, I wanted to get a deeper understanding of machine learning, artificial intelligence and natural language processing. Turns out, I was in luck! I could take:</p>
+
+<ul>
+  <li>CS 480: Introduction to <strong>Machine Learning</strong> with Prof. Yaoliang Yu</li>
+  <li>CS 486: Introduction to <strong>Artificial Intelligence</strong> with Prof. Jesse Hoey and Prof. Victor Zhong</li>
+  <li>CS 784: <strong>Computational Linguistics</strong> with Prof. Freda Shi</li>
+</ul>
+
+<p>This already sounds like a pretty heavy course load, but I decided to punish myself even more and take:</p>
+
+<ul>
+  <li>CS 454: <strong>Distributed Systems</strong> with Prof. Samer Al Kiswany</li>
+  <li>CO 331: <strong>Coding Theory</strong> with Prof. Alfred Menezes</li>
+</ul>
+
+<p>Truly, I was a glutton for punishment.</p>
+
+<p>CS 784 was also a graduate-level class, and I’d never taken a graduate-level class before. I was concerned that the material would be too advanced for me, but I was pleasantly surprised to learn that math is still math - derivatives don’t change in graduate classes, and neither do expected value or matrix multiplication. In fact, coding theory (CO 331) and my machine learning class (CS 480) had some of the wackiest math I’d ever seen. (Don’t get me wrong, the math was cool: Reed-Solomon codes and BCH codes are fascinating, and abstract algebra is truly powerful, but, man, was it hard).</p>
+
+<p>Instead, Freda’s class had a greater focus on learning NLP and linguistics fundamentals, and then applying that knowledge to review literature and research papers. Our term project was to write a meta-analysis paper on a popular word in NLP, and I chose to write about “attention” (This term gets thrown around a lot, and I wanted to discern fact from fiction).</p>
+
+<p>Learning about the attention mechanism and its implementations was fun, and I also enjoyed learning about its history. For example, I thought that the attention mechanism was created for the transformer architecture (Vaswani et al., 2017), but that credit actually goes to (Bahdanau et al., 2014). Bahdanau’s team used attention in a seq2seq model for machine translation.</p>
+
+<p>If you’re interested in learning more about the state of attention as of April 28, 2025, I hope you can find something useful from <a href="https://dhrumilp15.github.io/assets/paying_attention_to_attention.pdf">my paper</a>! This is the first machine learning paper I’ve ever written, and I hope to write something later that can push the field even a smidge forward.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[In my last term on campus at Waterloo, I decided to dedicate the term to learn about machine learning. I had already taken Waterloo’s computer vision class (CS 484) in second year, and felt like I should do a deeper dive to learn more of the fundamentals. In particular, I wanted to get a deeper understanding of machine learning, artificial intelligence and natural language processing. Turns out, I was in luck! I could take:]]></summary></entry><entry><title type="html">greatest city in the world, they said…</title><link href="http://localhost:4000/blog/2024/12/26/hackny/" rel="alternate" type="text/html" title="greatest city in the world, they said…" /><published>2024-12-26T00:00:00-05:00</published><updated>2024-12-26T00:00:00-05:00</updated><id>http://localhost:4000/blog/2024/12/26/hackny</id><content type="html" xml:base="http://localhost:4000/blog/2024/12/26/hackny/"><![CDATA[<p>There are <a href="https://hackny.org/blog/application-spotlight-luna">plenty</a> <a href="https://hackny.org/blog/application-spotlight-pauline">of</a> <a href="https://hackny.org/blog/application-spotlight-dlet">posts</a> <a href="https://hackny.org/blog/application-spotlight-gloria">that</a> talk about how awesome HackNY is, and they’re <strong>worth the read</strong>! I agree with them, but I’d like to share a more candid viewpoint. I want to share how HackNY fits into my story, with hopes that it might give you a bit more perspective if you’re thinking about joining HackNY.</p>
+
+<p>To provide a bit of context on where I’m coming from:</p>
+
+<ul>
+  <li>I’ve competed in about 45 hackathons, mostly in high school. I remember packing my weekends with hackathons because I had so much fun just building things. Building projects at hackathons is largely why I pursue software as a career.</li>
+  <li>My internship in New York was my 6th internship, my 3rd in the US, but most importantly, my first in New York!!</li>
+  <li>I’m lucky to go to a school with a pretty robust co-op program (a bunch of people from my school go all over US and Canada for internships). As a result, I already knew a few people who would be in New York.</li>
+</ul>
+
+<p>When I first learned about HackNY from my friend &amp; schoolmate (who later became my roommate lolz), I thought that it would have been perfect for the person I was 6 years ago, when I was deeply engaged with hackathon culture. Even after the program, I can say (with reasonable certainty) that this is still the case. To explain what I mean, I need to give a bit more context on HackNY’s founding mission, since I didn’t even understand it when I started.</p>
+
+<h1 id="hacknys-founding-mission">HackNY’s founding mission</h1>
+
+<ul>
+  <li>HackNY was originally created in 2010 to give undergrad + junior tech a foothold in new york, which was very finance-driven</li>
+  <li>At the time, HackNY matched fellows with NYC tech startups, who then sponsored the programming and housing fees for fellows</li>
+</ul>
+
+<p>When I was deep in hackathon culture, I would have absolutely loved HackNY. The opportunity to work at a startup in the summer with next to no prior experience, while living in new york? That would have been a dream for me!</p>
+
+<p>Even better, HackNY’s yearly student hackathon was one of the very first student hackathons. As someone who was addicted to them in high school, I can appreciate the community of other students who are really excited about tech.</p>
+
+<p>That’s why I think the original mission of HackNY was so powerful. Early alumni I met during my summer echoed this - <strong>HackNY changed their life</strong>. It was a small community of genuine, curious people in the New York tech scene that they could call upon for advice, a helping hand, or a fun night out. It helped them get their foot in the tech scene, and many now hold senior positions at tech startups and established companies.</p>
+
+<p>But now, there are a ton of hackathons all over the world, and tech has embedded itself into NYC as its own industry. So, that raises the question: what exactly can HackNY provide now?</p>
+
+<h2 id="before">Before:</h2>
+<ul>
+  <li>HackNY matched applicants to startups that were looking for interns</li>
+  <li>In exchange, those startups <strong>fully covered</strong> the <strong>programming and housing fees</strong> for HackNY fellows</li>
+</ul>
+
+<h2 id="now">now,</h2>
+<ul>
+  <li>HackNY fellows join the program (generally) with summer internships they <strong>find on their own</strong></li>
+  <li><strong>Fellows cover the cost of the program</strong>, including housing, which is about $2k/month</li>
+</ul>
+
+<h1 id="finding-an-internship-on-your-own">Finding an internship on your own.</h1>
+<p>This is already pretty hard. HackNY isn’t much of a foothold for students to get into tech if they can already get internships on their own.</p>
+
+<p>The organizing team for HackNY realizes this - they’ve shifted their focus towards social impact.</p>
+
+<p>But, that brings me to my next point: <strong>fellows cover the housing and programming fees for the program.</strong></p>
+
+<h1 id="fees-or-tax">Fees? Or Tax?</h1>
+
+<p>Fellows cover the cost of the program, including housing, which is $2k/month for a total of $5k. This was a lot to share a bedroom with one other person and a unit with 2 others (I loved my roommates, don’t get me wrong, but you can definitely at least get your own room for this much in NYC.)</p>
+
+<p>But, if you’re from HackNY, you’re probably shaking your fist at me, saying that the 2k is more than just housing - it also covers programming. If you break that down though, the actual cost of the dorm we had in NYU housing was about $374/week, which means that you’re effectively paying $504/month for the program. In other words, you’re expecting that the program delivers to you at least $504 in value every month (I use the numbers here more to demonstrate the point that the fellows are expecting the program to consistently deliver value every month).</p>
+
+<p>This, I think, was the concern I was most vocal about during my time in HackNY:</p>
+
+<p>The people in HackNY are absolutely amazing - the mentors taught me a lot about my own thinking, and while I didn’t get close to many of the other fellows, the lessons I learned from the fellows and my roommates will stay with me for the rest of my life. That being said, the programming (during my term) was hit or miss.</p>
+
+<p>There were quite a few hits:</p>
+<ul>
+  <li>Talking with Hursh, the CTO of The Browser Company making the Arc Browser</li>
+  <li>Talking with Erica Du - founder of Toko</li>
+  <li>Talking with Tracy Chou - founder of block party, privacy party</li>
+  <li>A talk with a contributor of JustFix - applying data to create tools &amp; reports about NYC housing is awesome</li>
+  <li>(These left the strongest impression on me, and there were other hits!!)</li>
+</ul>
+
+<p>But there were a few misses:</p>
+
+<ul>
+  <li>A talk about how to start unions at work and policy tech</li>
+  <li>A talk that started about donating cooked meals from excess food from grocery stores, that devolved into just 2 ppl shooting the shit…</li>
+</ul>
+
+<p>I know that I am not the primary audience for the talk about starting unions at work. The idea of challenging my workplace is daunting, given that I enter the US on a work visa that can be revoked at any time. It wasn’t the flashiest talk (which is why I was 1 of 2 fellows who came to watch the talk, though a handful joined late), but I really didn’t know what I gained from the talk.</p>
+
+<p>When I discussed my opinions about the talk with the current and previous directors of HackNY, I got an answer that was basically “different people are optimizing for different things” and “we’d like to spark this kind of discussion” (I’m paraphrasing from a conversation that I had a few months ago, forgive me if it’s not exactly right, but I think it covers the general idea). When I talked to the other fellows, they also gave me the sense that they didn’t really learn much from the talk.</p>
+
+<p>And maybe, the directors are right. Maybe, I’ll remember this talk for years to come, and it will help me mature later in life when I finally make the connections it was trying to show me. However, for a talk that ~6 fellows showed up for, and is part of the resources that the fellows are paying for, it’s hard to take those messages home and feel like I’ve been given something valuable.</p>
+
+<p>And that’s what really drives the trouble here - the program is funded by the fellows. I remember, really early in the summer, I wanted to run a chess workshop. I wanted to get a chess set so that I could play a game with my roommate (who’s ~2000 rated) and share chess with the other fellows. But, I got some pushback, expressing that a chess set might not be a necessary purchase.</p>
+
+<p>This is understandable, but gives an idea of how HackNY runs - it’s mission-driven, not profitable, which is a bit of a double-edged sword as one of the mentors taught me. It’s hard to get funding, but you know that any funding you can get can be completely funneled into HackNY initiatives.</p>
+
+<p>But, then it felt unclear how that money was spent. Normally, I wouldn’t care about this. I don’t care at hackathons how they choose to spend their money, because I know everything is free for me as a hacker. However, because I, as a fellow, am funding the program, I suddenly have a MASSIVE interest in where the funding is going (after all, I was even told several times that it was my money). When I saw money being spent during our program, I often wondered whether it was the right call - was a chess set really such an unnecessary purchase compared to some of these expenses? <strong>The program fee was less like something that we fellows pooled together to do cool stuff, and more like a tax I paid to the organization in exchange for housing and 2 talks a week.</strong></p>
+
+<p>After I got over the initial disillusionment, I realized that this was a good opportunity to have my own kind of fun: how can I recoup the most of my program fee? That thought eventually materialized into a chess workshop inspired by Chinese and Indian cultures where I required that we cater several different types of Indian and Chinese desserts. My only regret is that I couldn’t push the workshop bill to more than $300. But, I’m still the sucker, given that I couldn’t recoup my $504 that month.</p>
+
+<p>Honestly, that’s about it. The program fee really puts all of this on your mind, but if it were free I would sweep all my concerns under the rug and just say <em>“hey, it’s free, so who cares if the bathtub nearly overflows every time I try to shower”</em>.</p>
+
+<p>So why did I join HackNY?</p>
+
+<ul>
+  <li>affordable housing</li>
+</ul>
+
+<p>jkjk</p>
+
+<p>it was affordable housing + the community. The housing did not quite end up being as affordable as I’d thought, but my individual search for housing in New York was rather fruitless - every place I looked at was soo expensive. I also mean what I say about the fellows, my roommates and the mentors - I will remember their lessons for the rest of my life.</p>
+
+<p>HackNY was a good mix - was more expensive than I thought was necessary for the housing, but was a cool experience! Also, NYU has some incredible facilities!! I am so glad that I swam in the NYU pools and definitely did NOT sneak into the music rooms to play on those beautiful, beautiful Steinways…</p>
+
+<p>that’s about it…</p>
+
+<p>all in all, I’d make sure that you have the right expectations going into HackNY 👍</p>
+
+<p><strong>Huge thanks to my editors for making this sound coherent and intelligible!! &lt;3</strong></p>]]></content><author><name></name></author><summary type="html"><![CDATA[There are plenty of posts that talk about how awesome HackNY is, and they’re worth the read! I agree with them, but I’d like to share a more candid viewpoint. I want to share how HackNY fits into my story, with hopes that it might give you a bit more perspective if you’re thinking about joining HackNY.]]></summary></entry><entry><title type="html">Try it and see!</title><link href="http://localhost:4000/blog/2024/01/04/try-it-and-see/" rel="alternate" type="text/html" title="Try it and see!" /><published>2024-01-04T00:00:00-05:00</published><updated>2024-01-04T00:00:00-05:00</updated><id>http://localhost:4000/blog/2024/01/04/try-it-and-see</id><content type="html" xml:base="http://localhost:4000/blog/2024/01/04/try-it-and-see/"><![CDATA[<p>I asked my friend, who is much further in his SWE career, how to improve as a software engineer.</p>
 
 <p>He started with just, <strong>scale</strong>, that I should build projects at “large-scale”. “Large-scale”, as I later found out, generally means that your service needs to support high loads, respond really fast, or process extremely large amounts of data (sometimes you need to do more than one of these things). To meet these requirements, you make guarantees about your service through metrics like availability, latency or throughput. I initially thought that this was something you only really encounter in infra teams, but my friend disagreed. It’s something that can be observed through any project <strong>at scale</strong>.</p>
 

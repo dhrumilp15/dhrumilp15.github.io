@@ -1,13 +1,13 @@
 ---
-title: Taking a graduate class at UWaterloo during my undergrad!
-subtitle: My term in CS 784: Computational Linguistics 
+title: taking a graduate class during my undergrad
+subtitle: My last term on campus with CS 784 (Computational Linguistics)
 layout: default
 date: 2025-04-28
 keywords: research, education, natural language processing, cs784
-published: false
+published: true
 ---
 
-In my last term on campus at Waterloo, I decided to dedicate the term to learn about machine learning. I had already taken Waterloo's computer vision class in second year, and felt like I should do a deeper dive to learn more of the fundamentals. In particular, I wanted to get a deeper understanding of machine learning, artificial intelligence and natural language processing. Turns out, I was in luck! I could take:
+In my last term on campus at Waterloo, I decided to dedicate the term to learn about machine learning. I had already taken Waterloo's computer vision class (CS 484) in second year, and felt like I should do a deeper dive to learn more of the fundamentals. In particular, I wanted to get a deeper understanding of machine learning, artificial intelligence and natural language processing. Turns out, I was in luck! I could take:
 
 - CS 480: Introduction to **Machine Learning** with Prof. Yaoliang Yu
 - CS 486: Introduction to **Artificial Intelligence** with Prof. Jesse Hoey and Prof. Victor Zhong
