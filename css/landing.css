@@ -34,3 +34,10 @@
   display: block;
   margin: 0 auto;
 }
+@media (max-width: 600px) {
+	#landing {
+		margin: 40px auto;
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+}
