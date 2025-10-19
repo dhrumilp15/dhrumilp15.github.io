@@ -1,4 +1,8 @@
 Gemfile.lock
-_site/*
+_site/
 .jekyll-cache/
 .DS_Store
+
+# Ruby/Bundler local config and installed gems
+.bundle/
+vendor/

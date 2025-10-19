@@ -5,6 +5,7 @@ layout: default
 date: 2024-01-04
 keywords: software engineering, metacognition, research, applied research
 published: true
+public: true
 ---
 
 I asked my friend, who is much further in his SWE career, how to improve as a software engineer.

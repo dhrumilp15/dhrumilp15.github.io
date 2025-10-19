@@ -42,6 +42,7 @@ autor: Dhrumil Patel
         </div>
         <div id='posts' class='section'>
             {% for post in site.posts %}
+                {% if post.public %}
                 <div class='post-row'>
                     <p class='post-title'>
                         <a href="{{ post.url }}">
@@ -60,6 +61,7 @@ autor: Dhrumil Patel
                     {% endkatexmm %}
                 </p>
                 <span class='hidden'>{{ forloop.index }}</span>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
