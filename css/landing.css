@@ -41,3 +41,18 @@
 		padding-right: 5vw;
 	}
 }
+#landing ul.stats {
+	list-style-type: none;
+	padding-left: 0;
+}
+#landing ul.stats li {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 20px;
+	padding-bottom: 8px;
+}
+#landing ul.stats .stat-year {
+	white-space: nowrap;
+	text-align: right;
+}
